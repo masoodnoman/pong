@@ -35,9 +35,9 @@ function isLose() {
 function handleLose() {
     const rect = ball.rect()
     if (rect.right >= window.innerWidth) {
-        playerScoreElem.textContent = parseInt(playerScoreElem.textcontent) + 1
+        playerScoreElem.textContent = parseInt(playerScoreElem.textContent) + 1
     } else {
-        computerScoreElem.textContent = parseInt(computerScoreElem.textcontent) + 1
+        computerScoreElem.textContent = parseInt(computerScoreElem.textContent) + 1
     }
     ball.reset()
     computerPaddle.reset()
